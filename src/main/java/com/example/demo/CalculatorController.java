@@ -15,7 +15,7 @@ public class CalculatorController {
         return "기본페이지";
     }
 
-    @RequestMapping("/sum")
+    @RequestMapping("/sum2")
     String sum(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
         return String.valueOf(calculator.sum(a, b));
     }
